@@ -1,0 +1,126 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 372
+  ClientWidth = 766
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = RxMainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 766
+    Height = 49
+    Align = alTop
+    Caption = 'Suas Opera'#231#245'es :'
+    Color = 5375357
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clHighlightText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 49
+    Width = 89
+    Height = 323
+    Align = alLeft
+    Color = clMaroon
+    ParentBackground = False
+    TabOrder = 1
+    ExplicitTop = 41
+    ExplicitHeight = 319
+    object DBNavigator1: TDBNavigator
+      Left = 16
+      Top = 22
+      Width = 56
+      Height = 43
+      VisibleButtons = [nbInsert]
+      TabOrder = 0
+    end
+    object DBNavigator2: TDBNavigator
+      Left = 16
+      Top = 71
+      Width = 56
+      Height = 43
+      VisibleButtons = [nbDelete]
+      TabOrder = 1
+    end
+    object DBNavigator3: TDBNavigator
+      Left = 16
+      Top = 120
+      Width = 56
+      Height = 43
+      VisibleButtons = [nbEdit]
+      TabOrder = 2
+    end
+    object DBNavigator4: TDBNavigator
+      Left = 16
+      Top = 169
+      Width = 56
+      Height = 41
+      VisibleButtons = [nbRefresh]
+      TabOrder = 3
+    end
+    object DBNavigator5: TDBNavigator
+      Left = 16
+      Top = 219
+      Width = 56
+      Height = 41
+      VisibleButtons = [nbPrior]
+      TabOrder = 4
+    end
+    object DBNavigator6: TDBNavigator
+      Left = 16
+      Top = 266
+      Width = 56
+      Height = 41
+      VisibleButtons = [nbNext]
+      TabOrder = 5
+    end
+  end
+  object RxDBGrid1: TRxDBGrid
+    Left = 144
+    Top = 92
+    Width = 601
+    Height = 264
+    TabOrder = 2
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    RowColor2 = 16776176
+  end
+  object RxMainMenu1: TRxMainMenu
+    Left = 96
+    Top = 56
+    object Operaes1: TMenuItem
+      Caption = 'Opera'#231#245'es'
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object Sair1: TMenuItem
+        Caption = 'Sair'
+      end
+    end
+    object Moedas1: TMenuItem
+      Caption = 'Moedas'
+    end
+    object Corretoras1: TMenuItem
+      Caption = 'Corretoras'
+    end
+  end
+end

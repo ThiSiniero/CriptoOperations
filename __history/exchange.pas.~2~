@@ -1,0 +1,40 @@
+unit exchange;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.Grids, Vcl.DBGrids,
+  RxDBCtrl, Vcl.Menus, RxMenus, Vcl.DBCtrls, Vcl.ExtCtrls;
+
+type
+  TForm3 = class(TForm)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    DBNavigator1: TDBNavigator;
+    DBNavigator2: TDBNavigator;
+    DBNavigator3: TDBNavigator;
+    DBNavigator4: TDBNavigator;
+    DBNavigator5: TDBNavigator;
+    DBNavigator6: TDBNavigator;
+    RxMainMenu1: TRxMainMenu;
+    Operaes1: TMenuItem;
+    N1: TMenuItem;
+    Sair1: TMenuItem;
+    Moedas1: TMenuItem;
+    Corretoras1: TMenuItem;
+    RxDBGrid1: TRxDBGrid;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+
+{$R *.dfm}
+
+end.

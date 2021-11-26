@@ -1,0 +1,144 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  Caption = 'Opera'#231#245'es'
+  ClientHeight = 386
+  ClientWidth = 767
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = mmMain
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 13
+  object RxDBGrid1: TRxDBGrid
+    Left = 121
+    Top = 65
+    Width = 646
+    Height = 321
+    Align = alClient
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    RowColor2 = 16776176
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 65
+    Width = 121
+    Height = 321
+    Align = alLeft
+    Color = clMaroon
+    ParentBackground = False
+    TabOrder = 1
+    ExplicitTop = 49
+    ExplicitHeight = 325
+    object DBNavigator1: TDBNavigator
+      Left = 32
+      Top = 22
+      Width = 56
+      Height = 43
+      VisibleButtons = [nbInsert]
+      Hints.Strings = (
+        'First record'
+        'Prior record'
+        'Next record'
+        'Last record'
+        'Adicionar Opera'#231#227'o'
+        'Delete record'
+        'Edit record'
+        'Post edit'
+        'Cancel edit'
+        'Refresh data'
+        'Apply updates'
+        'Cancel updates')
+      TabOrder = 0
+    end
+    object DBNavigator2: TDBNavigator
+      Left = 32
+      Top = 71
+      Width = 56
+      Height = 43
+      VisibleButtons = [nbDelete]
+      TabOrder = 1
+    end
+    object DBNavigator3: TDBNavigator
+      Left = 32
+      Top = 120
+      Width = 56
+      Height = 43
+      VisibleButtons = [nbEdit]
+      TabOrder = 2
+    end
+    object DBNavigator4: TDBNavigator
+      Left = 32
+      Top = 169
+      Width = 56
+      Height = 41
+      VisibleButtons = [nbRefresh]
+      TabOrder = 3
+    end
+    object DBNavigator5: TDBNavigator
+      Left = 32
+      Top = 219
+      Width = 56
+      Height = 41
+      VisibleButtons = [nbPrior]
+      TabOrder = 4
+    end
+    object DBNavigator6: TDBNavigator
+      Left = 32
+      Top = 266
+      Width = 56
+      Height = 41
+      VisibleButtons = [nbNext]
+      TabOrder = 5
+    end
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 767
+    Height = 65
+    Align = alTop
+    Caption = 'Suas Opera'#231#245'es :'
+    Color = 5375357
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clHighlightText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 2
+  end
+  object mmMain: TRxMainMenu
+    Left = 184
+    Top = 16
+    object Operaes1: TMenuItem
+      Caption = 'Opera'#231#245'es'
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object Sair1: TMenuItem
+        Caption = 'Sair'
+        OnClick = Sair1Click
+      end
+    end
+    object Moedas1: TMenuItem
+      Caption = 'Moedas'
+      OnClick = Moedas1Click
+    end
+    object Corretoras1: TMenuItem
+      Caption = 'Corretoras'
+      OnClick = Corretoras1Click
+    end
+  end
+end
