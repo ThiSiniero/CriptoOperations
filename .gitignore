@@ -3,5 +3,5 @@
 *.exe
 exe
 dcu
-Win32
-_history
+Win32/
+_history/
