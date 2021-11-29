@@ -175,6 +175,21 @@ object Form5: TForm5
     Height = 53
     DataSource = DataModule1.dsOperations
     VisibleButtons = [nbPost]
+    Hints.Strings = (
+      'Primeira Opera'#231#227'o'
+      'Opera'#231#227'o Anterior'
+      'Proxima Opera'#231#227'o'
+      'Ultima Opera'#231#227'o'
+      'Adicionar Opera'#231#227'o'
+      'Deletar Opera'#231#227'o'
+      'Editar Opera'#231#227'o'
+      'Aplicar'
+      'Cancelar'
+      'Reorganizar'
+      'Apply updates'
+      'Cancel updates')
+    ParentShowHint = False
+    ShowHint = True
     TabOrder = 5
   end
   object DBNavigator5: TDBNavigator
@@ -184,6 +199,21 @@ object Form5: TForm5
     Height = 57
     DataSource = DataModule1.dsOperations
     VisibleButtons = [nbCancel]
+    Hints.Strings = (
+      'Primeira Opera'#231#227'o'
+      'Opera'#231#227'o Anterior'
+      'Proxima Opera'#231#227'o'
+      'Ultima Opera'#231#227'o'
+      'Adicionar Opera'#231#227'o'
+      'Deletar Opera'#231#227'o'
+      'Editar Opera'#231#227'o'
+      'Aplicar'
+      'Cancelar'
+      'Reorganizar'
+      'Apply updates'
+      'Cancel updates')
+    ParentShowHint = False
+    ShowHint = True
     TabOrder = 6
     OnClick = DBNavigator5Click
   end
@@ -194,6 +224,21 @@ object Form5: TForm5
     Height = 57
     DataSource = DataModule1.dsOperations
     VisibleButtons = [nbRefresh]
+    Hints.Strings = (
+      'Primeira Opera'#231#227'o'
+      'Opera'#231#227'o Anterior'
+      'Proxima Opera'#231#227'o'
+      'Ultima Opera'#231#227'o'
+      'Adicionar Opera'#231#227'o'
+      'Deletar Opera'#231#227'o'
+      'Editar Opera'#231#227'o'
+      'Aplicar'
+      'Cancelar'
+      'Reorganizar'
+      'Apply updates'
+      'Cancel updates')
+    ParentShowHint = False
+    ShowHint = True
     TabOrder = 7
   end
   object RxDBLookupCombo1: TRxDBLookupCombo
@@ -236,8 +281,8 @@ object Form5: TForm5
       AlignWithMargins = True
       Left = 24
       Top = 51
-      Width = 349
-      Height = 38
+      Width = 278
+      Height = 33
       Alignment = taCenter
       Caption = 'Adicionar Opera'#231#245'es'
       Color = 15259880

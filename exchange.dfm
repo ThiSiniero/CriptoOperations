@@ -48,6 +48,21 @@ object Form3: TForm3
       Height = 31
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbInsert]
+      Hints.Strings = (
+        'Primeira Opera'#231#227'o'
+        'Opera'#231#227'o Anterior'
+        'Proxima Opera'#231#227'o'
+        'Ultima Opera'#231#227'o'
+        'Adicionar Opera'#231#227'o'
+        'Deletar Opera'#231#227'o'
+        'Editar Opera'#231#227'o'
+        'Aplicar'
+        'Cancelar'
+        'Reorganizar'
+        'Apply updates'
+        'Cancel updates')
+      ParentShowHint = False
+      ShowHint = True
       TabOrder = 0
     end
     object DBNavigator2: TDBNavigator
@@ -57,6 +72,21 @@ object Form3: TForm3
       Height = 34
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbDelete]
+      Hints.Strings = (
+        'Primeira Opera'#231#227'o'
+        'Opera'#231#227'o Anterior'
+        'Proxima Opera'#231#227'o'
+        'Ultima Opera'#231#227'o'
+        'Adicionar Opera'#231#227'o'
+        'Deletar Opera'#231#227'o'
+        'Editar Opera'#231#227'o'
+        'Aplicar'
+        'Cancelar'
+        'Reorganizar'
+        'Apply updates'
+        'Cancel updates')
+      ParentShowHint = False
+      ShowHint = True
       TabOrder = 1
     end
     object DBNavigator3: TDBNavigator
@@ -66,6 +96,21 @@ object Form3: TForm3
       Height = 33
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbEdit]
+      Hints.Strings = (
+        'Primeira Opera'#231#227'o'
+        'Opera'#231#227'o Anterior'
+        'Proxima Opera'#231#227'o'
+        'Ultima Opera'#231#227'o'
+        'Adicionar Opera'#231#227'o'
+        'Deletar Opera'#231#227'o'
+        'Editar Opera'#231#227'o'
+        'Aplicar'
+        'Cancelar'
+        'Reorganizar'
+        'Apply updates'
+        'Cancel updates')
+      ParentShowHint = False
+      ShowHint = True
       TabOrder = 2
     end
     object DBNavigator4: TDBNavigator
@@ -75,6 +120,21 @@ object Form3: TForm3
       Height = 32
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbPost]
+      Hints.Strings = (
+        'Primeira Opera'#231#227'o'
+        'Opera'#231#227'o Anterior'
+        'Proxima Opera'#231#227'o'
+        'Ultima Opera'#231#227'o'
+        'Adicionar Opera'#231#227'o'
+        'Deletar Opera'#231#227'o'
+        'Editar Opera'#231#227'o'
+        'Aplicar'
+        'Cancelar'
+        'Reorganizar'
+        'Apply updates'
+        'Cancel updates')
+      ParentShowHint = False
+      ShowHint = True
       TabOrder = 3
     end
     object DBNavigator5: TDBNavigator
@@ -84,6 +144,21 @@ object Form3: TForm3
       Height = 30
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbCancel]
+      Hints.Strings = (
+        'Primeira Opera'#231#227'o'
+        'Opera'#231#227'o Anterior'
+        'Proxima Opera'#231#227'o'
+        'Ultima Opera'#231#227'o'
+        'Adicionar Opera'#231#227'o'
+        'Deletar Opera'#231#227'o'
+        'Editar Opera'#231#227'o'
+        'Aplicar'
+        'Cancelar'
+        'Reorganizar'
+        'Apply updates'
+        'Cancel updates')
+      ParentShowHint = False
+      ShowHint = True
       TabOrder = 4
     end
     object DBNavigator6: TDBNavigator
@@ -93,6 +168,21 @@ object Form3: TForm3
       Height = 31
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbRefresh]
+      Hints.Strings = (
+        'Primeira Opera'#231#227'o'
+        'Opera'#231#227'o Anterior'
+        'Proxima Opera'#231#227'o'
+        'Ultima Opera'#231#227'o'
+        'Adicionar Opera'#231#227'o'
+        'Deletar Opera'#231#227'o'
+        'Editar Opera'#231#227'o'
+        'Aplicar'
+        'Cancelar'
+        'Reorganizar'
+        'Apply updates'
+        'Cancel updates')
+      ParentShowHint = False
+      ShowHint = True
       TabOrder = 5
     end
     object DBNavigator7: TDBNavigator
@@ -102,6 +192,21 @@ object Form3: TForm3
       Height = 31
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbNext]
+      Hints.Strings = (
+        'Primeira Opera'#231#227'o'
+        'Opera'#231#227'o Anterior'
+        'Proxima Opera'#231#227'o'
+        'Ultima Opera'#231#227'o'
+        'Adicionar Opera'#231#227'o'
+        'Deletar Opera'#231#227'o'
+        'Editar Opera'#231#227'o'
+        'Aplicar'
+        'Cancelar'
+        'Reorganizar'
+        'Apply updates'
+        'Cancel updates')
+      ParentShowHint = False
+      ShowHint = True
       TabOrder = 6
     end
     object DBNavigator8: TDBNavigator
@@ -111,6 +216,21 @@ object Form3: TForm3
       Height = 31
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbPrior]
+      Hints.Strings = (
+        'Primeira Opera'#231#227'o'
+        'Opera'#231#227'o Anterior'
+        'Proxima Opera'#231#227'o'
+        'Ultima Opera'#231#227'o'
+        'Adicionar Opera'#231#227'o'
+        'Deletar Opera'#231#227'o'
+        'Editar Opera'#231#227'o'
+        'Aplicar'
+        'Cancelar'
+        'Reorganizar'
+        'Apply updates'
+        'Cancel updates')
+      ParentShowHint = False
+      ShowHint = True
       TabOrder = 7
     end
   end
