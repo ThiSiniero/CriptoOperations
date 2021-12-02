@@ -49,7 +49,6 @@ uses exchange, coin, dm_criptomoedas, add_operation;
 procedure TForm4.Corretoras1Click(Sender: TObject);
 begin
   form3.ShowModal ;
-  form4.Close ;
 end;
 
 procedure TForm4.DBNavigator1Click(Sender: TObject; Button: TNavigateBtn);

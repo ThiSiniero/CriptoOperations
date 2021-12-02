@@ -15,6 +15,13 @@ type
     dsCoin: TDataSource;
     zqExchange: TZQuery;
     dsExchange: TDataSource;
+    zqOperationsID: TIntegerField;
+    zqOperationsHORA: TDateField;
+    zqOperationsCOIN_ID: TIntegerField;
+    zqOperationsEXCHANGE_ID: TIntegerField;
+    zqOperationsDESCRIPTION: TWideStringField;
+    zqOperationsQUANTITY: TExtendedField;
+    zqOperationsAMOUNT: TExtendedField;
   private
     { Private declarations }
   public

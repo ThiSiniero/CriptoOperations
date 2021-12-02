@@ -40,7 +40,8 @@ object Form2: TForm2
     Color = clMedGray
     ParentBackground = False
     TabOrder = 1
-    ExplicitHeight = 342
+    ExplicitLeft = 8
+    ExplicitTop = 55
     object DBNavigator1: TDBNavigator
       Left = 16
       Top = 26
@@ -49,13 +50,13 @@ object Form2: TForm2
       DataSource = DataModule1.dsCoin
       VisibleButtons = [nbInsert]
       Hints.Strings = (
-        'Primeira Opera'#231#227'o'
-        'Opera'#231#227'o Anterior'
-        'Proxima Opera'#231#227'o'
-        'Ultima Opera'#231#227'o'
-        'Adicionar Opera'#231#227'o'
-        'Deletar Opera'#231#227'o'
-        'Editar Opera'#231#227'o'
+        'Primeira Moeda'
+        'Moeda Anterior'
+        'Proxima Moeda'
+        'Ultima Moeda'
+        'Adicionar Moeda'
+        'Deletar Moeda'
+        'Editar Moeda'
         'Aplicar'
         'Cancelar'
         'Reorganizar'
@@ -74,13 +75,13 @@ object Form2: TForm2
       DataSource = DataModule1.dsCoin
       VisibleButtons = [nbDelete]
       Hints.Strings = (
-        'Primeira Opera'#231#227'o'
-        'Opera'#231#227'o Anterior'
-        'Proxima Opera'#231#227'o'
-        'Ultima Opera'#231#227'o'
-        'Adicionar Opera'#231#227'o'
-        'Deletar Opera'#231#227'o'
-        'Editar Opera'#231#227'o'
+        'Primeira Moeda'
+        'Moeda Anterior'
+        'Proxima Moeda'
+        'Ultima Moeda'
+        'Adicionar Moeda'
+        'Deletar Moeda'
+        'Editar Moeda'
         'Aplicar'
         'Cancelar'
         'Reorganizar'
@@ -98,13 +99,13 @@ object Form2: TForm2
       DataSource = DataModule1.dsCoin
       VisibleButtons = [nbEdit]
       Hints.Strings = (
-        'Primeira Opera'#231#227'o'
-        'Opera'#231#227'o Anterior'
-        'Proxima Opera'#231#227'o'
-        'Ultima Opera'#231#227'o'
-        'Adicionar Opera'#231#227'o'
-        'Deletar Opera'#231#227'o'
-        'Editar Opera'#231#227'o'
+        'Primeira Moeda'
+        'Moeda Anterior'
+        'Proxima Moeda'
+        'Ultima Moeda'
+        'Adicionar Moeda'
+        'Deletar Moeda'
+        'Editar Moeda'
         'Aplicar'
         'Cancelar'
         'Reorganizar'
@@ -123,13 +124,13 @@ object Form2: TForm2
       DataSource = DataModule1.dsCoin
       VisibleButtons = [nbRefresh]
       Hints.Strings = (
-        'Primeira Opera'#231#227'o'
-        'Opera'#231#227'o Anterior'
-        'Proxima Opera'#231#227'o'
-        'Ultima Opera'#231#227'o'
-        'Adicionar Opera'#231#227'o'
-        'Deletar Opera'#231#227'o'
-        'Editar Opera'#231#227'o'
+        'Primeira Moeda'
+        'Moeda Anterior'
+        'Proxima Moeda'
+        'Ultima Moeda'
+        'Adicionar Moeda'
+        'Deletar Moeda'
+        'Editar Moeda'
         'Aplicar'
         'Cancelar'
         'Reorganizar'
@@ -147,13 +148,13 @@ object Form2: TForm2
       DataSource = DataModule1.dsCoin
       VisibleButtons = [nbNext]
       Hints.Strings = (
-        'Primeira Opera'#231#227'o'
-        'Opera'#231#227'o Anterior'
-        'Proxima Opera'#231#227'o'
-        'Ultima Opera'#231#227'o'
-        'Adicionar Opera'#231#227'o'
-        'Deletar Opera'#231#227'o'
-        'Editar Opera'#231#227'o'
+        'Primeira Moeda'
+        'Moeda Anterior'
+        'Proxima Moeda'
+        'Ultima Moeda'
+        'Adicionar Moeda'
+        'Deletar Moeda'
+        'Editar Moeda'
         'Aplicar'
         'Cancelar'
         'Reorganizar'
@@ -171,13 +172,13 @@ object Form2: TForm2
       DataSource = DataModule1.dsCoin
       VisibleButtons = [nbPrior]
       Hints.Strings = (
-        'Primeira Opera'#231#227'o'
-        'Opera'#231#227'o Anterior'
-        'Proxima Opera'#231#227'o'
-        'Ultima Opera'#231#227'o'
-        'Adicionar Opera'#231#227'o'
-        'Deletar Opera'#231#227'o'
-        'Editar Opera'#231#227'o'
+        'Primeira Moeda'
+        'Moeda Anterior'
+        'Proxima Moeda'
+        'Ultima Moeda'
+        'Adicionar Moeda'
+        'Deletar Moeda'
+        'Editar Moeda'
         'Aplicar'
         'Cancelar'
         'Reorganizar'

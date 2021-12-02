@@ -40,8 +40,8 @@ object Form3: TForm3
     Color = clMedGray
     ParentBackground = False
     TabOrder = 1
-    ExplicitLeft = 8
-    ExplicitTop = 55
+    ExplicitLeft = 16
+    ExplicitTop = 72
     object DBNavigator1: TDBNavigator
       Left = 16
       Top = 26
@@ -50,13 +50,13 @@ object Form3: TForm3
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbInsert]
       Hints.Strings = (
-        'Primeira Opera'#231#227'o'
-        'Opera'#231#227'o Anterior'
-        'Proxima Opera'#231#227'o'
-        'Ultima Opera'#231#227'o'
-        'Adicionar Opera'#231#227'o'
-        'Deletar Opera'#231#227'o'
-        'Editar Opera'#231#227'o'
+        'Primeira Corretora'
+        'Corretora Anterior'
+        'Proxima Corretora'
+        'Ultima Corretora'
+        'Adicionar Corretora'
+        'Deletar Corretora'
+        'Editar Corretora'
         'Aplicar'
         'Cancelar'
         'Reorganizar'
@@ -75,13 +75,13 @@ object Form3: TForm3
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbDelete]
       Hints.Strings = (
-        'Primeira Opera'#231#227'o'
-        'Opera'#231#227'o Anterior'
-        'Proxima Opera'#231#227'o'
-        'Ultima Opera'#231#227'o'
-        'Adicionar Opera'#231#227'o'
-        'Deletar Opera'#231#227'o'
-        'Editar Opera'#231#227'o'
+        'Primeira Corretora'
+        'Corretora Anterior'
+        'Proxima Corretora'
+        'Ultima Corretora'
+        'Adicionar Corretora'
+        'Deletar Corretora'
+        'Editar Corretora'
         'Aplicar'
         'Cancelar'
         'Reorganizar'
@@ -99,13 +99,13 @@ object Form3: TForm3
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbEdit]
       Hints.Strings = (
-        'Primeira Opera'#231#227'o'
-        'Opera'#231#227'o Anterior'
-        'Proxima Opera'#231#227'o'
-        'Ultima Opera'#231#227'o'
-        'Adicionar Opera'#231#227'o'
-        'Deletar Opera'#231#227'o'
-        'Editar Opera'#231#227'o'
+        'Primeira Corretora'
+        'Corretora Anterior'
+        'Proxima Corretora'
+        'Ultima Corretora'
+        'Adicionar Corretora'
+        'Deletar Corretora'
+        'Editar Corretora'
         'Aplicar'
         'Cancelar'
         'Reorganizar'
@@ -124,13 +124,13 @@ object Form3: TForm3
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbNext]
       Hints.Strings = (
-        'Primeira Opera'#231#227'o'
-        'Opera'#231#227'o Anterior'
-        'Proxima Opera'#231#227'o'
-        'Ultima Opera'#231#227'o'
-        'Adicionar Opera'#231#227'o'
-        'Deletar Opera'#231#227'o'
-        'Editar Opera'#231#227'o'
+        'Primeira Corretora'
+        'Corretora Anterior'
+        'Proxima Corretora'
+        'Ultima Corretora'
+        'Adicionar Corretora'
+        'Deletar Corretora'
+        'Editar Corretora'
         'Aplicar'
         'Cancelar'
         'Reorganizar'
@@ -148,13 +148,13 @@ object Form3: TForm3
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbPrior]
       Hints.Strings = (
-        'Primeira Opera'#231#227'o'
-        'Opera'#231#227'o Anterior'
-        'Proxima Opera'#231#227'o'
-        'Ultima Opera'#231#227'o'
-        'Adicionar Opera'#231#227'o'
-        'Deletar Opera'#231#227'o'
-        'Editar Opera'#231#227'o'
+        'Primeira Corretora'
+        'Corretora Anterior'
+        'Proxima Corretora'
+        'Ultima Corretora'
+        'Adicionar Corretora'
+        'Deletar Corretora'
+        'Editar Corretora'
         'Aplicar'
         'Cancelar'
         'Reorganizar'

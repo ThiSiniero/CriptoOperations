@@ -80,7 +80,7 @@ object Form5: TForm5
     ParentFont = False
   end
   object Label6: TLabel
-    Left = 248
+    Left = 223
     Top = 288
     Width = 31
     Height = 16
@@ -145,7 +145,7 @@ object Form5: TForm5
     TabOrder = 2
   end
   object DBEdit4: TDBEdit
-    Left = 263
+    Left = 232
     Top = 310
     Width = 98
     Height = 21
@@ -156,6 +156,7 @@ object Form5: TForm5
     Font.Height = -11
     Font.Name = 'Tahoma'
     Font.Style = [fsBold]
+    MaxLength = 10
     ParentFont = False
     TabOrder = 3
   end
@@ -281,7 +282,7 @@ object Form5: TForm5
       AlignWithMargins = True
       Left = 48
       Top = 51
-      Width = 278
+      Width = 276
       Height = 33
       Alignment = taCenter
       Caption = 'Adicionar Opera'#231#245'es'

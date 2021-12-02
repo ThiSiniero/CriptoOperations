@@ -25,6 +25,34 @@ object DataModule1: TDataModule1
     Params = <>
     Left = 56
     Top = 176
+    object zqOperationsID: TIntegerField
+      FieldName = 'ID'
+      Required = True
+    end
+    object zqOperationsHORA: TDateField
+      FieldName = 'HORA'
+      EditMask = '##/##/####;1;_'
+    end
+    object zqOperationsCOIN_ID: TIntegerField
+      FieldName = 'COIN_ID'
+    end
+    object zqOperationsEXCHANGE_ID: TIntegerField
+      FieldName = 'EXCHANGE_ID'
+    end
+    object zqOperationsDESCRIPTION: TWideStringField
+      FieldName = 'DESCRIPTION'
+      Size = 400
+    end
+    object zqOperationsQUANTITY: TExtendedField
+      FieldName = 'QUANTITY'
+      Required = True
+      Precision = 19
+    end
+    object zqOperationsAMOUNT: TExtendedField
+      FieldName = 'AMOUNT'
+      Required = True
+      Precision = 19
+    end
   end
   object dsOperations: TDataSource
     DataSet = zqOperations
