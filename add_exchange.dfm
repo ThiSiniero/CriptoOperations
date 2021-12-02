@@ -170,7 +170,7 @@ object Form7: TForm7
     ShowHint = True
     TabOrder = 5
   end
-  object rpaTItleAddCoin: TRxPanel
+  object rpaTItleAddExchange: TRxPanel
     Left = 0
     Top = 0
     Width = 248

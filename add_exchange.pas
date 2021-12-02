@@ -18,7 +18,7 @@ type
     DBNavigator4: TDBNavigator;
     DBNavigator5: TDBNavigator;
     DBNavigator6: TDBNavigator;
-    rpaTItleAddCoin: TRxPanel;
+    rpaTItleAddExchange: TRxPanel;
     Label8: TLabel;
   private
     { Private declarations }

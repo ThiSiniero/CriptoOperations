@@ -16,9 +16,9 @@ object Form4: TForm4
   PixelsPerInch = 96
   TextHeight = 13
   object rdgOperations: TRxDBGrid
-    Left = 121
+    Left = 115
     Top = 65
-    Width = 646
+    Width = 652
     Height = 321
     Align = alClient
     DataSource = DataModule1.dsOperations
@@ -117,16 +117,16 @@ object Form4: TForm4
   object paButtonsOperations: TPanel
     Left = 0
     Top = 65
-    Width = 121
+    Width = 115
     Height = 321
     Align = alLeft
     Color = clMaroon
     ParentBackground = False
     TabOrder = 1
     object DBNavigator1: TDBNavigator
-      Left = 32
+      Left = 24
       Top = 22
-      Width = 56
+      Width = 64
       Height = 43
       DataSource = DataModule1.dsOperations
       VisibleButtons = [nbInsert]
@@ -149,9 +149,9 @@ object Form4: TForm4
       OnClick = DBNavigator1Click
     end
     object DBNavigator2: TDBNavigator
-      Left = 32
+      Left = 24
       Top = 71
-      Width = 56
+      Width = 64
       Height = 43
       DataSource = DataModule1.dsOperations
       VisibleButtons = [nbDelete]
@@ -173,9 +173,9 @@ object Form4: TForm4
       TabOrder = 1
     end
     object DBNavigator3: TDBNavigator
-      Left = 32
+      Left = 24
       Top = 120
-      Width = 56
+      Width = 64
       Height = 43
       DataSource = DataModule1.dsOperations
       VisibleButtons = [nbEdit]
@@ -198,9 +198,9 @@ object Form4: TForm4
       OnClick = DBNavigator3Click
     end
     object DBNavigator4: TDBNavigator
-      Left = 32
+      Left = 24
       Top = 169
-      Width = 56
+      Width = 64
       Height = 41
       DataSource = DataModule1.dsOperations
       VisibleButtons = [nbRefresh]
@@ -222,9 +222,9 @@ object Form4: TForm4
       TabOrder = 3
     end
     object DBNavigator5: TDBNavigator
-      Left = 32
+      Left = 24
       Top = 216
-      Width = 56
+      Width = 64
       Height = 41
       DataSource = DataModule1.dsOperations
       VisibleButtons = [nbPrior]
@@ -246,9 +246,9 @@ object Form4: TForm4
       TabOrder = 4
     end
     object DBNavigator6: TDBNavigator
-      Left = 32
+      Left = 24
       Top = 263
-      Width = 56
+      Width = 64
       Height = 41
       DataSource = DataModule1.dsOperations
       VisibleButtons = [nbNext]
