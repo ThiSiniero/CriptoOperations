@@ -223,7 +223,7 @@ object Form4: TForm4
     end
     object DBNavigator5: TDBNavigator
       Left = 32
-      Top = 219
+      Top = 216
       Width = 56
       Height = 41
       DataSource = DataModule1.dsOperations
@@ -247,7 +247,7 @@ object Form4: TForm4
     end
     object DBNavigator6: TDBNavigator
       Left = 32
-      Top = 266
+      Top = 263
       Width = 56
       Height = 41
       DataSource = DataModule1.dsOperations

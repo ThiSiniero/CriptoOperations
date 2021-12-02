@@ -14,22 +14,15 @@ type
     DBNavigator1: TDBNavigator;
     DBNavigator2: TDBNavigator;
     DBNavigator3: TDBNavigator;
-    DBNavigator4: TDBNavigator;
-    DBNavigator5: TDBNavigator;
     DBNavigator6: TDBNavigator;
-    mmCoin: TRxMainMenu;
-    Operaes1: TMenuItem;
-    N1: TMenuItem;
-    Sair1: TMenuItem;
-    Moedas1: TMenuItem;
-    Corretoras1: TMenuItem;
     RxDBGrid1: TRxDBGrid;
     DBNavigator7: TDBNavigator;
     DBNavigator8: TDBNavigator;
-    AdicionarOperao1: TMenuItem;
     procedure Operaes1Click(Sender: TObject);
     procedure Corretoras1Click(Sender: TObject);
     procedure AdicionarOperao1Click(Sender: TObject);
+    procedure DBNavigator1Click(Sender: TObject; Button: TNavigateBtn);
+    procedure DBNavigator3Click(Sender: TObject; Button: TNavigateBtn);
   private
     { Private declarations }
   public
@@ -43,7 +36,7 @@ implementation
 
 {$R *.dfm}
 
-uses dm_criptomoedas, exchange, operations, add_operation;
+uses dm_criptomoedas, exchange, operations, add_operation, add_coin;
 
 procedure TForm2.AdicionarOperao1Click(Sender: TObject);
 begin
@@ -53,6 +46,16 @@ end;
 procedure TForm2.Corretoras1Click(Sender: TObject);
 begin
   form3.ShowModal ;
+end;
+
+procedure TForm2.DBNavigator1Click(Sender: TObject; Button: TNavigateBtn);
+begin
+  form6.ShowModal ;
+end;
+
+procedure TForm2.DBNavigator3Click(Sender: TObject; Button: TNavigateBtn);
+begin
+  form6.ShowModal  ;
 end;
 
 procedure TForm2.Operaes1Click(Sender: TObject);

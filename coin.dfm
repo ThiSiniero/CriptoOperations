@@ -2,7 +2,7 @@ object Form2: TForm2
   Left = 0
   Top = 0
   Caption = 'Moedas'
-  ClientHeight = 371
+  ClientHeight = 379
   ClientWidth = 768
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -10,7 +10,6 @@ object Form2: TForm2
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  Menu = mmCoin
   OldCreateOrder = False
   Position = poDesktopCenter
   PixelsPerInch = 96
@@ -22,7 +21,7 @@ object Form2: TForm2
     Height = 49
     Align = alTop
     Caption = 'Suas Moedas :'
-    Color = 5375357
+    Color = cl3DDkShadow
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clHighlightText
     Font.Height = -21
@@ -36,16 +35,17 @@ object Form2: TForm2
     Left = 0
     Top = 49
     Width = 89
-    Height = 322
+    Height = 330
     Align = alLeft
-    Color = clMaroon
+    Color = clMedGray
     ParentBackground = False
     TabOrder = 1
+    ExplicitHeight = 342
     object DBNavigator1: TDBNavigator
       Left = 16
-      Top = 18
+      Top = 26
       Width = 56
-      Height = 31
+      Height = 39
       DataSource = DataModule1.dsCoin
       VisibleButtons = [nbInsert]
       Hints.Strings = (
@@ -64,12 +64,13 @@ object Form2: TForm2
       ParentShowHint = False
       ShowHint = True
       TabOrder = 0
+      OnClick = DBNavigator1Click
     end
     object DBNavigator2: TDBNavigator
       Left = 16
-      Top = 55
+      Top = 71
       Width = 56
-      Height = 34
+      Height = 42
       DataSource = DataModule1.dsCoin
       VisibleButtons = [nbDelete]
       Hints.Strings = (
@@ -91,9 +92,9 @@ object Form2: TForm2
     end
     object DBNavigator3: TDBNavigator
       Left = 16
-      Top = 95
+      Top = 119
       Width = 56
-      Height = 33
+      Height = 42
       DataSource = DataModule1.dsCoin
       VisibleButtons = [nbEdit]
       Hints.Strings = (
@@ -112,60 +113,13 @@ object Form2: TForm2
       ParentShowHint = False
       ShowHint = True
       TabOrder = 2
-    end
-    object DBNavigator4: TDBNavigator
-      Left = 16
-      Top = 134
-      Width = 56
-      Height = 32
-      DataSource = DataModule1.dsCoin
-      VisibleButtons = [nbPost]
-      Hints.Strings = (
-        'Primeira Opera'#231#227'o'
-        'Opera'#231#227'o Anterior'
-        'Proxima Opera'#231#227'o'
-        'Ultima Opera'#231#227'o'
-        'Adicionar Opera'#231#227'o'
-        'Deletar Opera'#231#227'o'
-        'Editar Opera'#231#227'o'
-        'Aplicar'
-        'Cancelar'
-        'Reorganizar'
-        'Apply updates'
-        'Cancel updates')
-      ParentShowHint = False
-      ShowHint = True
-      TabOrder = 3
-    end
-    object DBNavigator5: TDBNavigator
-      Left = 16
-      Top = 172
-      Width = 56
-      Height = 30
-      DataSource = DataModule1.dsCoin
-      VisibleButtons = [nbCancel]
-      Hints.Strings = (
-        'Primeira Opera'#231#227'o'
-        'Opera'#231#227'o Anterior'
-        'Proxima Opera'#231#227'o'
-        'Ultima Opera'#231#227'o'
-        'Adicionar Opera'#231#227'o'
-        'Deletar Opera'#231#227'o'
-        'Editar Opera'#231#227'o'
-        'Aplicar'
-        'Cancelar'
-        'Reorganizar'
-        'Apply updates'
-        'Cancel updates')
-      ParentShowHint = False
-      ShowHint = True
-      TabOrder = 4
+      OnClick = DBNavigator3Click
     end
     object DBNavigator6: TDBNavigator
       Left = 16
-      Top = 208
+      Top = 167
       Width = 56
-      Height = 31
+      Height = 42
       DataSource = DataModule1.dsCoin
       VisibleButtons = [nbRefresh]
       Hints.Strings = (
@@ -183,13 +137,13 @@ object Form2: TForm2
         'Cancel updates')
       ParentShowHint = False
       ShowHint = True
-      TabOrder = 5
+      TabOrder = 3
     end
     object DBNavigator7: TDBNavigator
       Left = 16
-      Top = 245
+      Top = 263
       Width = 56
-      Height = 31
+      Height = 42
       DataSource = DataModule1.dsCoin
       VisibleButtons = [nbNext]
       Hints.Strings = (
@@ -207,13 +161,13 @@ object Form2: TForm2
         'Cancel updates')
       ParentShowHint = False
       ShowHint = True
-      TabOrder = 6
+      TabOrder = 4
     end
     object DBNavigator8: TDBNavigator
       Left = 16
-      Top = 282
+      Top = 215
       Width = 56
-      Height = 31
+      Height = 42
       DataSource = DataModule1.dsCoin
       VisibleButtons = [nbPrior]
       Hints.Strings = (
@@ -231,14 +185,14 @@ object Form2: TForm2
         'Cancel updates')
       ParentShowHint = False
       ShowHint = True
-      TabOrder = 7
+      TabOrder = 5
     end
   end
   object RxDBGrid1: TRxDBGrid
     Left = 89
     Top = 49
     Width = 679
-    Height = 322
+    Height = 330
     Align = alClient
     DataSource = DataModule1.dsCoin
     TabOrder = 2
@@ -297,30 +251,5 @@ object Form2: TForm2
         Width = 800
         Visible = True
       end>
-  end
-  object mmCoin: TRxMainMenu
-    Left = 192
-    Top = 8
-    object Operaes1: TMenuItem
-      Caption = 'Opera'#231#245'es'
-      OnClick = Operaes1Click
-      object AdicionarOperao1: TMenuItem
-        Caption = 'Adicionar Opera'#231#227'o'
-        OnClick = AdicionarOperao1Click
-      end
-      object N1: TMenuItem
-        Caption = '-'
-      end
-      object Sair1: TMenuItem
-        Caption = 'Sair'
-      end
-    end
-    object Moedas1: TMenuItem
-      Caption = 'Moedas'
-    end
-    object Corretoras1: TMenuItem
-      Caption = 'Corretoras'
-      OnClick = Corretoras1Click
-    end
   end
 end

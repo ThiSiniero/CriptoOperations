@@ -2,7 +2,7 @@ object Form3: TForm3
   Left = 0
   Top = 0
   Caption = 'Corretoras'
-  ClientHeight = 367
+  ClientHeight = 379
   ClientWidth = 768
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -10,7 +10,6 @@ object Form3: TForm3
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  Menu = mmExchange
   OldCreateOrder = False
   Position = poDesktopCenter
   PixelsPerInch = 96
@@ -22,7 +21,7 @@ object Form3: TForm3
     Height = 49
     Align = alTop
     Caption = 'Suas Corretoras :'
-    Color = 5375357
+    Color = cl3DDkShadow
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clHighlightText
     Font.Height = -21
@@ -36,16 +35,18 @@ object Form3: TForm3
     Left = 0
     Top = 49
     Width = 89
-    Height = 318
+    Height = 330
     Align = alLeft
-    Color = clMaroon
+    Color = clMedGray
     ParentBackground = False
     TabOrder = 1
+    ExplicitLeft = 8
+    ExplicitTop = 55
     object DBNavigator1: TDBNavigator
       Left = 16
-      Top = 18
+      Top = 26
       Width = 56
-      Height = 31
+      Height = 39
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbInsert]
       Hints.Strings = (
@@ -64,12 +65,13 @@ object Form3: TForm3
       ParentShowHint = False
       ShowHint = True
       TabOrder = 0
+      OnClick = DBNavigator1Click
     end
     object DBNavigator2: TDBNavigator
       Left = 16
-      Top = 55
+      Top = 71
       Width = 56
-      Height = 34
+      Height = 42
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbDelete]
       Hints.Strings = (
@@ -91,9 +93,9 @@ object Form3: TForm3
     end
     object DBNavigator3: TDBNavigator
       Left = 16
-      Top = 95
+      Top = 119
       Width = 56
-      Height = 33
+      Height = 42
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbEdit]
       Hints.Strings = (
@@ -112,84 +114,13 @@ object Form3: TForm3
       ParentShowHint = False
       ShowHint = True
       TabOrder = 2
-    end
-    object DBNavigator4: TDBNavigator
-      Left = 16
-      Top = 134
-      Width = 56
-      Height = 32
-      DataSource = DataModule1.dsExchange
-      VisibleButtons = [nbPost]
-      Hints.Strings = (
-        'Primeira Opera'#231#227'o'
-        'Opera'#231#227'o Anterior'
-        'Proxima Opera'#231#227'o'
-        'Ultima Opera'#231#227'o'
-        'Adicionar Opera'#231#227'o'
-        'Deletar Opera'#231#227'o'
-        'Editar Opera'#231#227'o'
-        'Aplicar'
-        'Cancelar'
-        'Reorganizar'
-        'Apply updates'
-        'Cancel updates')
-      ParentShowHint = False
-      ShowHint = True
-      TabOrder = 3
-    end
-    object DBNavigator5: TDBNavigator
-      Left = 16
-      Top = 172
-      Width = 56
-      Height = 30
-      DataSource = DataModule1.dsExchange
-      VisibleButtons = [nbCancel]
-      Hints.Strings = (
-        'Primeira Opera'#231#227'o'
-        'Opera'#231#227'o Anterior'
-        'Proxima Opera'#231#227'o'
-        'Ultima Opera'#231#227'o'
-        'Adicionar Opera'#231#227'o'
-        'Deletar Opera'#231#227'o'
-        'Editar Opera'#231#227'o'
-        'Aplicar'
-        'Cancelar'
-        'Reorganizar'
-        'Apply updates'
-        'Cancel updates')
-      ParentShowHint = False
-      ShowHint = True
-      TabOrder = 4
-    end
-    object DBNavigator6: TDBNavigator
-      Left = 16
-      Top = 208
-      Width = 56
-      Height = 31
-      DataSource = DataModule1.dsExchange
-      VisibleButtons = [nbRefresh]
-      Hints.Strings = (
-        'Primeira Opera'#231#227'o'
-        'Opera'#231#227'o Anterior'
-        'Proxima Opera'#231#227'o'
-        'Ultima Opera'#231#227'o'
-        'Adicionar Opera'#231#227'o'
-        'Deletar Opera'#231#227'o'
-        'Editar Opera'#231#227'o'
-        'Aplicar'
-        'Cancelar'
-        'Reorganizar'
-        'Apply updates'
-        'Cancel updates')
-      ParentShowHint = False
-      ShowHint = True
-      TabOrder = 5
+      OnClick = DBNavigator3Click
     end
     object DBNavigator7: TDBNavigator
       Left = 16
-      Top = 245
+      Top = 263
       Width = 56
-      Height = 31
+      Height = 42
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbNext]
       Hints.Strings = (
@@ -207,13 +138,13 @@ object Form3: TForm3
         'Cancel updates')
       ParentShowHint = False
       ShowHint = True
-      TabOrder = 6
+      TabOrder = 3
     end
     object DBNavigator8: TDBNavigator
       Left = 16
-      Top = 282
+      Top = 215
       Width = 56
-      Height = 31
+      Height = 42
       DataSource = DataModule1.dsExchange
       VisibleButtons = [nbPrior]
       Hints.Strings = (
@@ -231,14 +162,14 @@ object Form3: TForm3
         'Cancel updates')
       ParentShowHint = False
       ShowHint = True
-      TabOrder = 7
+      TabOrder = 4
     end
   end
   object RxDBGrid1: TRxDBGrid
     Left = 89
     Top = 49
     Width = 679
-    Height = 318
+    Height = 330
     Align = alClient
     DataSource = DataModule1.dsExchange
     TabOrder = 2
@@ -286,29 +217,28 @@ object Form3: TForm3
         Visible = True
       end>
   end
-  object mmExchange: TRxMainMenu
-    Left = 184
-    Top = 8
-    object Operaes1: TMenuItem
-      Caption = 'Opera'#231#245'es'
-      OnClick = Operaes1Click
-      object AdicionarOperao1: TMenuItem
-        Caption = 'Adicionar Opera'#231#227'o'
-        OnClick = AdicionarOperao1Click
-      end
-      object N1: TMenuItem
-        Caption = '-'
-      end
-      object Sair1: TMenuItem
-        Caption = 'Sair'
-      end
-    end
-    object Moedas1: TMenuItem
-      Caption = 'Moedas'
-      OnClick = Moedas1Click
-    end
-    object Corretoras1: TMenuItem
-      Caption = 'Corretoras'
-    end
+  object DBNavigator6: TDBNavigator
+    Left = 16
+    Top = 216
+    Width = 56
+    Height = 42
+    DataSource = DataModule1.dsExchange
+    VisibleButtons = [nbRefresh]
+    Hints.Strings = (
+      'Primeira Opera'#231#227'o'
+      'Opera'#231#227'o Anterior'
+      'Proxima Opera'#231#227'o'
+      'Ultima Opera'#231#227'o'
+      'Adicionar Opera'#231#227'o'
+      'Deletar Opera'#231#227'o'
+      'Editar Opera'#231#227'o'
+      'Aplicar'
+      'Cancelar'
+      'Reorganizar'
+      'Apply updates'
+      'Cancel updates')
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 3
   end
 end
