@@ -53,6 +53,24 @@ object DataModule1: TDataModule1
       Required = True
       Precision = 19
     end
+    object zqOperationsExchange: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Exchange'
+      LookupDataSet = zqExchange
+      LookupKeyFields = 'ID'
+      LookupResultField = 'NAME'
+      KeyFields = 'EXCHANGE_ID'
+      Lookup = True
+    end
+    object zqOperationsCoin: TStringField
+      FieldKind = fkLookup
+      FieldName = 'Coin'
+      LookupDataSet = zqCoin
+      LookupKeyFields = 'ID'
+      LookupResultField = 'PROJECT'
+      KeyFields = 'COIN_ID'
+      Lookup = True
+    end
   end
   object dsOperations: TDataSource
     DataSet = zqOperations

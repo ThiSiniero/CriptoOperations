@@ -32,6 +32,7 @@ object Form4: TForm4
     RowColor2 = 16776176
     Columns = <
       item
+        Alignment = taLeftJustify
         Expanded = False
         FieldName = 'ID'
         Title.Font.Charset = DEFAULT_CHARSET
@@ -39,25 +40,12 @@ object Form4: TForm4
         Title.Font.Height = -11
         Title.Font.Name = 'Tahoma'
         Title.Font.Style = [fsBold]
-        Width = 50
+        Width = 40
         Visible = True
       end
       item
         Expanded = False
         FieldName = 'HORA'
-        Title.Caption = 'DATA'
-        Title.Font.Charset = DEFAULT_CHARSET
-        Title.Font.Color = clWindowText
-        Title.Font.Height = -11
-        Title.Font.Name = 'Tahoma'
-        Title.Font.Style = [fsBold]
-        Width = 70
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'COIN_ID'
-        Title.Caption = 'MOEDAS'
         Title.Font.Charset = DEFAULT_CHARSET
         Title.Font.Color = clWindowText
         Title.Font.Height = -11
@@ -67,6 +55,20 @@ object Form4: TForm4
         Visible = True
       end
       item
+        Alignment = taLeftJustify
+        Expanded = False
+        FieldName = 'QUANTITY'
+        Title.Caption = 'QUANTIDADE'
+        Title.Font.Charset = DEFAULT_CHARSET
+        Title.Font.Color = clWindowText
+        Title.Font.Height = -11
+        Title.Font.Name = 'Tahoma'
+        Title.Font.Style = [fsBold]
+        Width = 90
+        Visible = True
+      end
+      item
+        Alignment = taLeftJustify
         Expanded = False
         FieldName = 'AMOUNT'
         Title.Caption = 'PRE'#199'O'
@@ -79,26 +81,26 @@ object Form4: TForm4
       end
       item
         Expanded = False
-        FieldName = 'QUANTITY'
-        Title.Caption = 'QUANTIDADE'
+        FieldName = 'Coin'
+        Title.Caption = 'MOEDA'
         Title.Font.Charset = DEFAULT_CHARSET
         Title.Font.Color = clWindowText
         Title.Font.Height = -11
         Title.Font.Name = 'Tahoma'
         Title.Font.Style = [fsBold]
-        Width = 80
+        Width = 90
         Visible = True
       end
       item
         Expanded = False
-        FieldName = 'EXCHANGE_ID'
-        Title.Caption = 'CORRETORAS'
+        FieldName = 'Exchange'
+        Title.Caption = 'CORRETORA'
         Title.Font.Charset = DEFAULT_CHARSET
         Title.Font.Color = clWindowText
         Title.Font.Height = -11
         Title.Font.Name = 'Tahoma'
         Title.Font.Style = [fsBold]
-        Width = 100
+        Width = 90
         Visible = True
       end
       item
@@ -110,7 +112,7 @@ object Form4: TForm4
         Title.Font.Height = -11
         Title.Font.Name = 'Tahoma'
         Title.Font.Style = [fsBold]
-        Width = 160
+        Width = 200
         Visible = True
       end>
   end

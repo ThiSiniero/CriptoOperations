@@ -22,6 +22,8 @@ type
     zqOperationsDESCRIPTION: TWideStringField;
     zqOperationsQUANTITY: TExtendedField;
     zqOperationsAMOUNT: TExtendedField;
+    zqOperationsExchange: TStringField;
+    zqOperationsCoin: TStringField;
   private
     { Private declarations }
   public
