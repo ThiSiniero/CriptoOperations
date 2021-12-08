@@ -38,7 +38,7 @@ begin
   if ( txtUsuario.Text = 'admin' ) and ( txtSenha.Text = '123' ) then
       begin
         form4.ShowModal ;
-        form1.Close ;
+        form1.Close() ;
       end
   else
       begin

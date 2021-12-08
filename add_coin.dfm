@@ -1,6 +1,7 @@
 object Form6: TForm6
   Left = 0
   Top = 0
+  BorderIcons = []
   Caption = 'Adicionar Moedas'
   ClientHeight = 400
   ClientWidth = 248
@@ -173,6 +174,7 @@ object Form6: TForm6
     ParentShowHint = False
     ShowHint = True
     TabOrder = 5
+    OnClick = DBNavigator5Click
   end
   object DBNavigator6: TDBNavigator
     Left = 166

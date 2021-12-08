@@ -22,6 +22,7 @@ type
     DBNavigator6: TDBNavigator;
     rpaTItleAddCoin: TRxPanel;
     Label8: TLabel;
+    procedure DBNavigator5Click(Sender: TObject; Button: TNavigateBtn);
   private
     { Private declarations }
   public
@@ -35,6 +36,11 @@ implementation
 
 {$R *.dfm}
 
-uses dm_criptomoedas;
+uses dm_criptomoedas, coin, exchange;
+
+procedure TForm6.DBNavigator5Click(Sender: TObject; Button: TNavigateBtn);
+begin
+  Form6.Close();
+end;
 
 end.

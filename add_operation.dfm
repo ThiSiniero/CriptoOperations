@@ -1,6 +1,7 @@
 object Form5: TForm5
   Left = 0
   Top = 0
+  BorderIcons = []
   Caption = 'Adicionar Opera'#231#227'o'
   ClientHeight = 582
   ClientWidth = 394
@@ -282,7 +283,7 @@ object Form5: TForm5
       AlignWithMargins = True
       Left = 48
       Top = 51
-      Width = 276
+      Width = 278
       Height = 33
       Alignment = taCenter
       Caption = 'Adicionar Opera'#231#245'es'

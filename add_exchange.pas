@@ -20,6 +20,7 @@ type
     DBNavigator6: TDBNavigator;
     rpaTItleAddExchange: TRxPanel;
     Label8: TLabel;
+    procedure DBNavigator5Click(Sender: TObject; Button: TNavigateBtn);
   private
     { Private declarations }
   public
@@ -34,5 +35,10 @@ implementation
 {$R *.dfm}
 
 uses dm_criptomoedas;
+
+procedure TForm7.DBNavigator5Click(Sender: TObject; Button: TNavigateBtn);
+begin
+  Form7.Close() ;
+end;
 
 end.

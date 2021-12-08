@@ -1,6 +1,7 @@
 object Form7: TForm7
   Left = 0
   Top = 0
+  BorderIcons = []
   Caption = 'Form7'
   ClientHeight = 288
   ClientWidth = 248
@@ -145,6 +146,7 @@ object Form7: TForm7
     ParentShowHint = False
     ShowHint = True
     TabOrder = 4
+    OnClick = DBNavigator5Click
   end
   object DBNavigator6: TDBNavigator
     Left = 166

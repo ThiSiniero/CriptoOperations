@@ -46,7 +46,7 @@ uses dm_criptomoedas;
 
 procedure TForm5.DBNavigator5Click(Sender: TObject; Button: TNavigateBtn);
 begin
-  form5.CloseModal ;
+  Form5.Close() ;
 end;
 
 end.
