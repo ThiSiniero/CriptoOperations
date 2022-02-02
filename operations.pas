@@ -68,6 +68,7 @@ end;
 
 procedure TForm4.NovaOperao1Click(Sender: TObject);
 begin
+  DataModule1.zqOperations.Append ;
   form5.ShowModal ;
 end;
 

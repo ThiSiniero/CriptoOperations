@@ -2,8 +2,8 @@ object Form4: TForm4
   Left = 0
   Top = 0
   Caption = 'Opera'#231#245'es'
-  ClientHeight = 386
-  ClientWidth = 767
+  ClientHeight = 457
+  ClientWidth = 830
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -18,8 +18,8 @@ object Form4: TForm4
   object rdgOperations: TRxDBGrid
     Left = 115
     Top = 65
-    Width = 652
-    Height = 321
+    Width = 715
+    Height = 392
     Align = alClient
     DataSource = DataModule1.dsOperations
     ReadOnly = True
@@ -37,10 +37,10 @@ object Form4: TForm4
         FieldName = 'ID'
         Title.Font.Charset = DEFAULT_CHARSET
         Title.Font.Color = clWindowText
-        Title.Font.Height = -11
+        Title.Font.Height = -13
         Title.Font.Name = 'Tahoma'
         Title.Font.Style = [fsBold]
-        Width = 40
+        Width = 60
         Visible = True
       end
       item
@@ -48,10 +48,10 @@ object Form4: TForm4
         FieldName = 'HORA'
         Title.Font.Charset = DEFAULT_CHARSET
         Title.Font.Color = clWindowText
-        Title.Font.Height = -11
+        Title.Font.Height = -13
         Title.Font.Name = 'Tahoma'
         Title.Font.Style = [fsBold]
-        Width = 80
+        Width = 110
         Visible = True
       end
       item
@@ -61,10 +61,10 @@ object Form4: TForm4
         Title.Caption = 'QUANTIDADE'
         Title.Font.Charset = DEFAULT_CHARSET
         Title.Font.Color = clWindowText
-        Title.Font.Height = -11
+        Title.Font.Height = -13
         Title.Font.Name = 'Tahoma'
         Title.Font.Style = [fsBold]
-        Width = 90
+        Width = 130
         Visible = True
       end
       item
@@ -74,9 +74,10 @@ object Form4: TForm4
         Title.Caption = 'PRE'#199'O'
         Title.Font.Charset = DEFAULT_CHARSET
         Title.Font.Color = clWindowText
-        Title.Font.Height = -11
+        Title.Font.Height = -13
         Title.Font.Name = 'Tahoma'
         Title.Font.Style = [fsBold]
+        Width = 100
         Visible = True
       end
       item
@@ -85,10 +86,10 @@ object Form4: TForm4
         Title.Caption = 'MOEDA'
         Title.Font.Charset = DEFAULT_CHARSET
         Title.Font.Color = clWindowText
-        Title.Font.Height = -11
+        Title.Font.Height = -13
         Title.Font.Name = 'Tahoma'
         Title.Font.Style = [fsBold]
-        Width = 90
+        Width = 130
         Visible = True
       end
       item
@@ -97,10 +98,10 @@ object Form4: TForm4
         Title.Caption = 'CORRETORA'
         Title.Font.Charset = DEFAULT_CHARSET
         Title.Font.Color = clWindowText
-        Title.Font.Height = -11
+        Title.Font.Height = -13
         Title.Font.Name = 'Tahoma'
         Title.Font.Style = [fsBold]
-        Width = 90
+        Width = 130
         Visible = True
       end
       item
@@ -109,10 +110,10 @@ object Form4: TForm4
         Title.Caption = 'DESCRI'#199#195'O'
         Title.Font.Charset = DEFAULT_CHARSET
         Title.Font.Color = clWindowText
-        Title.Font.Height = -11
+        Title.Font.Height = -13
         Title.Font.Name = 'Tahoma'
         Title.Font.Style = [fsBold]
-        Width = 200
+        Width = 550
         Visible = True
       end>
   end
@@ -120,16 +121,17 @@ object Form4: TForm4
     Left = 0
     Top = 65
     Width = 115
-    Height = 321
+    Height = 392
     Align = alLeft
     Color = clMaroon
     ParentBackground = False
     TabOrder = 1
+    ExplicitHeight = 321
     object DBNavigator1: TDBNavigator
       Left = 24
       Top = 22
       Width = 64
-      Height = 43
+      Height = 51
       DataSource = DataModule1.dsOperations
       VisibleButtons = [nbInsert]
       Hints.Strings = (
@@ -152,9 +154,9 @@ object Form4: TForm4
     end
     object DBNavigator2: TDBNavigator
       Left = 24
-      Top = 71
+      Top = 94
       Width = 64
-      Height = 43
+      Height = 51
       DataSource = DataModule1.dsOperations
       VisibleButtons = [nbDelete]
       Hints.Strings = (
@@ -176,9 +178,9 @@ object Form4: TForm4
     end
     object DBNavigator3: TDBNavigator
       Left = 24
-      Top = 120
+      Top = 166
       Width = 64
-      Height = 43
+      Height = 51
       DataSource = DataModule1.dsOperations
       VisibleButtons = [nbEdit]
       Hints.Strings = (
@@ -201,9 +203,9 @@ object Form4: TForm4
     end
     object DBNavigator4: TDBNavigator
       Left = 24
-      Top = 169
+      Top = 238
       Width = 64
-      Height = 41
+      Height = 51
       DataSource = DataModule1.dsOperations
       VisibleButtons = [nbRefresh]
       Hints.Strings = (
@@ -225,9 +227,9 @@ object Form4: TForm4
     end
     object DBNavigator5: TDBNavigator
       Left = 24
-      Top = 216
+      Top = 310
       Width = 64
-      Height = 41
+      Height = 51
       DataSource = DataModule1.dsOperations
       VisibleButtons = [nbPrior]
       Hints.Strings = (
@@ -249,9 +251,9 @@ object Form4: TForm4
     end
     object DBNavigator6: TDBNavigator
       Left = 24
-      Top = 263
+      Top = 383
       Width = 64
-      Height = 41
+      Height = 50
       DataSource = DataModule1.dsOperations
       VisibleButtons = [nbNext]
       Hints.Strings = (
@@ -275,7 +277,7 @@ object Form4: TForm4
   object paTitleOperations: TPanel
     Left = 0
     Top = 0
-    Width = 767
+    Width = 830
     Height = 65
     Align = alTop
     Caption = 'Suas Opera'#231#245'es :'
@@ -288,6 +290,7 @@ object Form4: TForm4
     ParentBackground = False
     ParentFont = False
     TabOrder = 2
+    ExplicitWidth = 767
   end
   object mmOperations: TRxMainMenu
     Left = 184

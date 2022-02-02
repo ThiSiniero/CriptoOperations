@@ -173,7 +173,7 @@ object Form5: TForm5
   object DBNavigator4: TDBNavigator
     Left = 42
     Top = 504
-    Width = 79
+    Width = 77
     Height = 53
     DataSource = DataModule1.dsOperations
     VisibleButtons = [nbPost]
@@ -193,6 +193,7 @@ object Form5: TForm5
     ParentShowHint = False
     ShowHint = True
     TabOrder = 5
+    OnClick = DBNavigator4Click
   end
   object DBNavigator5: TDBNavigator
     Left = 161

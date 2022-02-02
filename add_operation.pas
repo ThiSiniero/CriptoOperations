@@ -29,6 +29,7 @@ type
     rpaTItleAddOperations: TRxPanel;
     Label8: TLabel;
     procedure DBNavigator5Click(Sender: TObject; Button: TNavigateBtn);
+    procedure DBNavigator4Click(Sender: TObject; Button: TNavigateBtn);
   private
     { Private declarations }
   public
@@ -43,6 +44,11 @@ implementation
 {$R *.dfm}
 
 uses dm_criptomoedas;
+
+procedure TForm5.DBNavigator4Click(Sender: TObject; Button: TNavigateBtn);
+begin
+   Form5.Close() ;
+end;
 
 procedure TForm5.DBNavigator5Click(Sender: TObject; Button: TNavigateBtn);
 begin
